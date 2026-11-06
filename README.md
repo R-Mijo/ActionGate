@@ -1,3 +1,5 @@
+![Product banner](docs/assets/banner.svg)
+
 # Meeho ActionGate
 
 **Evidence before release. Authority before action.**
@@ -7,6 +9,10 @@ Meeho ActionGate is a small Python toolkit for governing tool-using agents. Chec
 Created by **Marco Armijo (R-Mijo)**. This is a separate project from [Anchor Task Assurance](https://github.com/R-Mijo/Anchor_Task_Assurance). It builds on an evidence-checking foundation and adds tool authorization, trusted review sessions, autonomy controls, circuit breaking and usage reservations.
 
 **0.3.0 | Python 3.11+ | Proprietary | No third-party runtime dependencies**
+
+## In plain English
+
+Meeho is the permission checkpoint for an AI using tools. It can allow a draft, require a named human review, or block a write operation. For example, an agent can prepare a refund request without having permission to issue the refund. The host must authenticate people and keep direct credentials away from the agent.
 
 ## Try it
 
