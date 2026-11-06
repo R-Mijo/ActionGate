@@ -1,0 +1,58 @@
+PROPRIETARY RIGHTS NOTICE — ALL RIGHTS RESERVED
+
+Copyright (c) 2026 Marco Armijo (R-Mijo) (the "Owner").
+
+1. OWNERSHIP AND RESERVATION
+The Owner reserves all copyright and other intellectual property rights owned
+by the Owner in this software, its source and object code, documentation, user
+interfaces, designs, tests, datasets, examples and associated project materials
+(collectively, the "Materials"). Possession, access, disclosure or delivery of
+the Materials transfers no ownership. This project is proprietary; it is not
+offered under an open-source license.
+
+2. NO GENERAL LICENSE
+Except as expressly authorized in a separate written agreement signed by the
+Owner, no permission is granted to any other person or entity to use, run, copy,
+modify, adapt, translate, create derivative works from, distribute, publish,
+sublicense, sell, rent, host as a service, commercially exploit or otherwise
+make the Materials available. No patent, trademark, trade-secret or other
+intellectual property license is granted by implication, estoppel or otherwise.
+All rights not expressly granted in such a signed agreement are reserved.
+
+3. ACCESS AND RESTRICTIONS
+Except for platform permissions described below, repository access is not a grant of use or
+distribution rights. Unless an applicable written agreement permits otherwise,
+do not disclose or redistribute nonpublic Materials, remove ownership notices,
+or use the Materials to train or improve a model. Reverse engineering,
+decompilation and disassembly are not authorized except to the extent applicable
+law provides rights that cannot lawfully be excluded. Authorized recipients
+must comply with the scope and confidentiality terms of their written agreement.
+
+4. EXISTING RIGHTS AND THIRD-PARTY MATERIAL
+Public hosting on GitHub permits viewing and forking through that service as required by its Terms of Service; no broader license is granted by this notice.
+This notice does not revoke rights previously granted for an earlier version
+under another license, override mandatory legal rights or supersede a binding
+written agreement. Separately identified third-party materials remain governed
+by their own licenses and remain the property of their respective owners. No
+claim of ownership over third-party software or unprotectable ideas is made.
+The public SlipSavvy project is separate and is NOT governed by this
+proprietary notice; consult that project's Apache License 2.0 and notices.
+
+5. CONTRIBUTIONS
+No contribution is accepted on an automatic open-source or implied-license
+basis. Any contribution intended for inclusion must be covered by a separate
+written agreement satisfactory to the Owner addressing ownership or assignment
+and any required licenses. Merely submitting a patch does not establish that
+the Owner has acquired rights in third-party material.
+
+6. NO WARRANTY; LIMITATION OF LIABILITY
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE MATERIALS ARE PROVIDED
+"AS IS" WITHOUT WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE AND NONINFRINGEMENT.
+TO THAT EXTENT, THE OWNER IS NOT LIABLE FOR ANY CLAIM, LOSS OR DAMAGES ARISING
+FROM ACCESS TO OR USE OF THE MATERIALS, WHETHER IN CONTRACT, TORT OR OTHERWISE.
+THIS PARAGRAPH DOES NOT OVERRIDE LIABILITY THAT CANNOT LAWFULLY BE EXCLUDED OR
+CONTRARY TERMS OF A SEPARATE WRITTEN AGREEMENT SIGNED BY THE OWNER.
+
+Requests for permission must be directed to the Owner through the R-Mijo GitHub
+account. A request does not grant permission; obtain the signed agreement first.

@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "meeho-actiongate"
+version = "0.3.0"
+description = "Evidence release gates and scoped action controls for tool-using agents"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "LicenseRef-Proprietary"}
+classifiers = ["License :: Other/Proprietary License"]
+authors = [{name = "Marco Armijo (R-Mijo)"}]
+dependencies = []
+
+[project.scripts]
+meeho-actiongate = "meeho_actiongate.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["meeho_actiongate*"]
+
+[tool.setuptools.package-data]
+meeho_actiongate = ["data/*.jsonl", "data/*.txt"]
