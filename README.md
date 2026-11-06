@@ -6,7 +6,7 @@ Meeho ActionGate is a small Python toolkit for governing tool-using agents. Chec
 
 Created by **Marco Armijo (R-Mijo)**. This is a separate project from [Anchor Task Assurance](https://github.com/R-Mijo/Anchor_Task_Assurance). It builds on an evidence-checking foundation and adds tool authorization, trusted review sessions, autonomy controls, circuit breaking and usage reservations.
 
-**0.3.0 Â· Python 3.11+ Â· MIT Â· No third-party runtime dependencies**
+**0.3.0 | Python 3.11+ | Proprietary | No third-party runtime dependencies**
 
 ## Try it
 
