@@ -3,7 +3,7 @@
 """Offline experiment preparation and mechanical screening.
 
 No function calls a model. Mechanical matches are screening results, not semantic
-accuracy or independent AGP validation. Model outputs remain untrusted drafts.
+accuracy or independent Anchor validation. Model outputs remain untrusted drafts.
 """
 
 from __future__ import annotations
@@ -20,7 +20,7 @@ from typing import Any
 from .core import POLICY_VERSION, TaskProfile
 
 
-STUDY_VERSION = "agp-synthetic-study-0.2.0"
+STUDY_VERSION = "anchor-synthetic-study-0.2.2"
 METHODS = ("A", "B", "C", "D")
 OUTCOMES = (
     "Eligible preliminary recommendation", "Ineligible", "Partially eligible",
@@ -212,7 +212,7 @@ recommendation; release of a recommendation never authorizes payment."""
         # treatment's profile or supply an oracle for the expected behavior.
         ambiguity = 2
         task_profile = TaskProfile(2, 3, 1, 2, 1, ambiguity)
-        instruction = f"""Execute an AGP-controlled synthetic expense review.
+        instruction = f"""Execute an Anchor-controlled synthetic expense review.
 Profile: consequence=2, evidence_dependence=3, autonomy=1, reversibility=2,
 data_sensitivity=1, ambiguity={ambiguity}. Total={task_profile.total}; PAL-{int(task_profile.pal)}.
 Controls version: {POLICY_VERSION}. Produce a preliminary recommendation only.
@@ -284,7 +284,7 @@ def prepare_study(directory: Path, repeats: int = 3, seed: int = 20261029,
         "study_version": STUDY_VERSION, "controls_version": POLICY_VERSION,
         "created_at": datetime.now(timezone.utc).isoformat(),
         "seed": seed, "repeats": repeats, "case_count": len(cases),
-        "generator_jobs": len(jobs), "full_agp_verifier_jobs": len(cases) * repeats,
+        "generator_jobs": len(jobs), "full_anchor_verifier_jobs": len(cases) * repeats,
         "file_hashes": hashes, "common_contract_sha256": sha256(COMMON_CONTRACT.encode()).hexdigest(),
         "jobs": jobs,
         "limitations": ["No models have been called.", "Gold labels must be reviewed and frozen before execution.",

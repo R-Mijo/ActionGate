@@ -1,7 +1,7 @@
 DESERT HORIZON SERVICES EMPLOYEE EXPENSE POLICY
 Policy ID DHS-EXP-001; source_id DHS-EXP-001-v1.1
 Version 1.1; effective 2026-10-01; owner Finance Operations
-Synthetic benchmark policy only. Revised for AGP protocol v0.2 before model runs.
+Synthetic benchmark policy only. Revised for Anchor protocol v0.2 before model runs.
 Evaluation date 2026-10-29. This fictional policy explicitly governs requests submitted on or after 2026-10-01, including older transactions. Transaction date determines timeliness; submission date determines policy applicability in this benchmark.
 
 1 GENERAL AUTHORITY

@@ -1,4 +1,4 @@
-# AGP internal critical review
+# Anchor internal critical review
 
 Reviewed the supplied Business Methodology version 0.1 and Independent Testing and Validation Protocol version 0.1. Section references below refer to those originals. This is an internal consistency and implementation audit. It does not verify external market citations or establish novelty, commercial demand, legal protection, or model effectiveness.
 
@@ -76,7 +76,7 @@ Correction: call it a content checksum, document exact canonical serialization a
 
 ### 12 Conformance and commercial claims are premature
 
-AGP Assured, certificates, market share, prices and financial projections in business sections 26 through 39 are proposed products and scenarios. No measured willingness to pay, renewal, delivered margin, incident reduction or independent assessment is supplied. Several overlapping benefits may double count the same avoided labor/rework.
+A proposed assurance certification, certificates, market share, prices and financial projections in business sections 26 through 39 are proposed products and scenarios. No measured willingness to pay, renewal, delivered margin, incident reduction or independent assessment is supplied. Several overlapping benefits may double count the same avoided labor/rework.
 
 Correction: lead the public repository with problem, working example, limitations, tests and contribution requests. Keep pricing and company projections in a clearly hypothetical separate business appendix. Require a measured baseline, fully loaded implementation/model/reviewer/maintenance costs and explicit benefit nonoverlap in ROI. The one minute saving across one million cases at $35/hour equals $583,333.33 before rounding; the original rounds hours first and reports $583,345. The difference is small, but compute currency from unrounded inputs.
 
@@ -86,7 +86,7 @@ Correction: lead the public repository with problem, working example, limitation
 
 Protocol sections 13 through 16 give A free text, B a five field text template and C/D JSON with claims and release decisions. Policy section 12 simultaneously requires every recommendation to contain material claims and a release decision. B has no release field at all. The scorer in section 26 assumes JSON and `policy_basis`; evaluating its schema/claim/release metrics directly against A/B unfairly penalizes their requested format. C/D also receive additional sources, while A/B templates include only current_policy and request, compromising stale/conflict tests.
 
-Correction: use the same business objective, evidence package and common minimal machine readable output contract for every primary condition. Vary the assurance instructions/process being studied. Keep free text Basic as an illustrative separate baseline if desired. A secondary resource matched conventional plus independent verifier baseline helps distinguish the benefit of extra calls from the AGP vocabulary/structure.
+Correction: use the same business objective, evidence package and common minimal machine readable output contract for every primary condition. Vary the assurance instructions/process being studied. Keep free text Basic as an illustrative separate baseline if desired. A secondary resource matched conventional plus independent verifier baseline helps distinguish the benefit of extra calls from the Anchor vocabulary/structure.
 
 ### 14 Gold release labels contradict the written release rules
 

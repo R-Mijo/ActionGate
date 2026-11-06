@@ -1,10 +1,10 @@
-# AGP independent validation protocol
+# Anchor independent validation protocol
 
-> **ActionGate reference snapshot.** The canonical research study design is maintained in [Anchor Task Assurance](https://github.com/R-Mijo/Anchor_Task_Assurance/blob/main/docs/VALIDATION_PROTOCOL.md). This is an evaluation protocol, distinct from the AGP operating method. ActionGate retains this copy for reference; see [architecture and compatibility](ARCHITECTURE.md) for the toolkit's current relationship to the protocol home.
+> **ActionGate reference snapshot.** The canonical research study design is maintained in [Anchor Task Assurance](https://github.com/R-Mijo/Anchor_Task_Assurance/blob/main/docs/VALIDATION_PROTOCOL.md). This is an evaluation protocol, distinct from the Anchor operating method. ActionGate retains this copy for reference; see [architecture and compatibility](ARCHITECTURE.md) for the toolkit's current relationship to the protocol home.
 
 Protocol version 0.2. Synthetic policy version 1.1. Prepared 2026-10-29 for Marco A.
 
-This protocol asks whether AGP improves supported preliminary expense recommendations compared with a strong conventional prompt, and what independent verification adds. The published software checks and offline examples do not answer that empirical question. A model study and independent semantic review remain to be run. This is an exploratory pilot, not production certification.
+This protocol asks whether Anchor improves supported preliminary expense recommendations compared with a strong conventional prompt, and what independent verification adds. The published software checks and offline examples do not answer that empirical question. A model study and independent semantic review remain to be run. This is an exploratory pilot, not production certification.
 
 ## Changes made before model testing
 
@@ -24,9 +24,9 @@ The study operator runs the experiment. Independent reviewers judge semantic cor
 
 ## Research questions and comparisons
 
-The primary comparison is strong conventional prompting B against AGP generator C, using one generation call, the same evidence and common output contract. This tests the instructions and packaging. C against D measures the added verifier and enforced release checks. A is a basic instruction baseline. An optional but important B plus verifier condition uses the same verifier and release checks as D; this tests whether gains come from verification generally rather than AGP-specific terminology.
+The primary comparison is strong conventional prompting B against Anchor generator C, using one generation call, the same evidence and common output contract. This tests the instructions and packaging. C against D measures the added verifier and enforced release checks. A is a basic instruction baseline. An optional but important B plus verifier condition uses the same verifier and release checks as D; this tests whether gains come from verification generally rather than Anchor-specific terminology.
 
-These are planned experimental conditions. The shipped offline CLI prepares generation prompts, screens generator drafts, and prepares D verifier prompts. It does not ingest verifier responses or run them through the core gate. Complete and test that trusted integration, or perform and document equivalent independent manual review, before calling D a Full AGP result. D's current automated screening is draft-only; final release is not evaluated. The optional B plus verifier arm also requires additional operator scheduling. It is not automatically scheduled by the four-condition CLI.
+These are planned experimental conditions. The shipped offline CLI prepares generation prompts, screens generator drafts, and prepares D verifier prompts. It does not ingest verifier responses or run them through the core gate. Complete and test that trusted integration, or perform and document equivalent independent manual review, before calling D a Full Anchor result. D's current automated screening is draft-only; final release is not evaluated. The optional B plus verifier arm also requires additional operator scheduling. It is not automatically scheduled by the four-condition CLI.
 
 Use the same generator provider, model identifier, supported settings, token limit, evidence package and task scope for all conditions. Do not assume controls named in a prompt were actually enforced. Record what each condition genuinely executes. If D changes both verification and deterministic controls, describe the comparison as a combined intervention.
 

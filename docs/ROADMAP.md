@@ -8,7 +8,7 @@ Publish the inspectable core, synthetic examples, tests, corrected protocol, and
 
 ## Next evidence milestone
 
-Freeze a preregistered model comparison, run the strong baseline, AGP generator, full AGP, and conventional-plus-verifier ablation under matched conditions, and obtain independent human review. Publish negative findings, uncertainty, costs, and review time alongside improvements. Do not infer hundreds of independent scenarios from repeated runs of 30 cases.
+Freeze a preregistered model comparison, run the strong baseline, Anchor generator, full Anchor, and conventional-plus-verifier ablation under matched conditions, and obtain independent human review. Publish negative findings, uncertainty, costs, and review time alongside improvements. Do not infer hundreds of independent scenarios from repeated runs of 30 cases.
 
 ## Next engineering milestone
 

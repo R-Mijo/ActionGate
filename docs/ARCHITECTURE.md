@@ -1,6 +1,6 @@
 # ActionGate: toolkit architecture and protocol relationship
 
-**Role:** Python enforcement toolkit integrated into a trusted application. **Protocol home:** [Anchor Task Assurance](https://github.com/R-Mijo/Anchor_Task_Assurance). **Method:** Adaptive Grounded Prompting (AGP), an experimental evidence-and-review procedure. These are separate repositories; ActionGate adds tool-action controls to a shared evidence-checking foundation.
+**Role:** Python enforcement toolkit integrated into a trusted application. **Protocol home:** [Anchor Task Assurance](https://github.com/R-Mijo/Anchor_Task_Assurance). **Method:** Anchor Task Assurance, an experimental evidence-and-review procedure. These are separate repositories; ActionGate adds tool-action controls to a shared evidence-checking foundation.
 
 ## Two software components
 
@@ -15,16 +15,16 @@ Read [RUNTIME.md](RUNTIME.md) for propose → preview → authenticated review �
 
 ## Current compatibility snapshot
 
-Inspected November 6, 2026:
+Prepared revision, November 6, 2026. The ancestor commits below identify reviewed history, not the newly prepared package versions:
 
 | Item | Anchor reference | ActionGate toolkit |
 | --- | --- | --- |
-| Package | `anchor-task-assurance` 0.2.1, import `agp` | `actiongate` 0.3.1, import `actiongate` |
-| Baseline commit | `5b14fb85c0d03d3ef90a0ea5a310b915451aa32a` | `3dcaee44cb96cf4b7265c655d459e3f546c3625a` |
-| Code policy identifier | `agp-reference-controls-0.2.0` | `agp-reference-controls-0.2.0` |
-| Evidence gate source | `agp/core.py` | `actiongate/core.py` |
+| Package | `anchor-task-assurance` 0.2.2, import `anchor_task_assurance` | `actiongate` 0.3.2, import `actiongate` |
+| Reviewed ancestor commit | `5b14fb85c0d03d3ef90a0ea5a310b915451aa32a` | `3dcaee44cb96cf4b7265c655d459e3f546c3625a` |
+| Code policy identifier | `anchor-reference-controls-0.2.2` | `anchor-reference-controls-0.2.2` |
+| Evidence gate source | `anchor_task_assurance/core.py` | `actiongate/core.py` |
 
-The evidence gate files at these baselines are identical after normalizing line endings. ActionGate carries its own copy and declares no dependency on Anchor. Distinct Python classes and enum types are not interchangeable merely because their source text matches. Passing `agp.ReleaseDecision.RELEASE` straight to this action broker is not an integrated workflow. Use the toolkit's trusted gate path, or build and test a validated adapter preserving the exact reviewed draft and policy context.
+The current evidence gate files are identical after normalizing line endings. ActionGate carries its own copy and declares no dependency on Anchor. Distinct Python classes and enum types are not interchangeable merely because their source text matches. Passing `anchor_task_assurance.ReleaseDecision.RELEASE` straight to this action broker is not an integrated workflow. Use the toolkit's trusted gate path, or build and test a validated adapter preserving the exact reviewed draft and policy context.
 
 This is a source inspection, not a formal conformance certification or a guarantee that future versions remain synchronized. A code-sharing refactor should first establish decision fixtures and a versioned data contract. A protocol update should trigger explicit review of this snapshot and any implementation differences. Package versions do not replace policy identifiers.
 
@@ -40,4 +40,4 @@ Use a customer refund example: establish whether the policy-backed explanation m
 
 `Python enforcement toolkit for AI agents: scoped tool actions, approvals, autonomy limits and evidence-release checks.`
 
-This text is ready for repository metadata; the documentation change does not itself update GitHub settings. Existing names, licenses, historical grants, imports, commands and runtime behavior remain unchanged.
+This text is ready for repository metadata; the documentation change does not itself update GitHub settings. Product names, licenses, historical grants and enforcement rules remain unchanged. The Anchor import is now `anchor_task_assurance`; new study/policy labels and the `full_anchor_verifier_jobs` manifest field require fresh study preparation.
