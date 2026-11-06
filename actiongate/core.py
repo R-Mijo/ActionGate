@@ -22,7 +22,7 @@ from typing import Any
 from uuid import uuid4
 
 
-POLICY_VERSION = "agp-reference-controls-0.2.0"
+POLICY_VERSION = "anchor-reference-controls-0.2.2"
 REQUIRED_CHECKS = frozenset({
     "schema", "evidence", "authority", "freshness", "calculation", "injection",
     "logic", "missing_information",

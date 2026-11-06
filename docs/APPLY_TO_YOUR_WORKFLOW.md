@@ -1,4 +1,4 @@
-# Connect AGP to a workflow
+# Connect Anchor to a workflow
 
 This release contains a working generic gate and offline evaluation tools. It does not contain a complete model-provider, expense-policy, or approval integration. Follow these steps to make a specific workflow concrete before expanding the system.
 

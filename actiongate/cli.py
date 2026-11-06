@@ -65,7 +65,7 @@ def demo() -> dict:
 
 
 def main(argv=None) -> int:
-    parser = argparse.ArgumentParser(description="AGP experimental offline reference tools")
+    parser = argparse.ArgumentParser(description="ActionGate experimental offline reference tools")
     commands = parser.add_subparsers(dest="command", required=True)
     commands.add_parser("demo", help="Run software fixtures; no model calls")
     commands.add_parser("action-demo", help="Run local action broker and review fixtures")
@@ -89,7 +89,7 @@ def main(argv=None) -> int:
             manifest = prepare_study(arguments.directory, arguments.repeats, arguments.seed)
             result = {"study_directory": str(arguments.directory),
                       "generator_jobs": manifest["generator_jobs"],
-                      "later_verifier_jobs": manifest["full_agp_verifier_jobs"],
+                      "later_verifier_jobs": manifest["full_anchor_verifier_jobs"],
                       "next": "Record model configuration, review/freeze gold standards, then run each prompt through one pinned model and preserve raw responses. No model has been called."}
         elif arguments.command == "score":
             result = score_study(arguments.study, arguments.responses, arguments.out)
@@ -98,7 +98,7 @@ def main(argv=None) -> int:
         print(json.dumps(result, indent=2, ensure_ascii=False, allow_nan=False))
         return 0
     except (OSError, ValueError, KeyError, TypeError) as error:
-        parser.exit(2, f"AGP error: {error}\n")
+        parser.exit(2, f"ActionGate error: {error}\n")
 
 
 if __name__ == "__main__":

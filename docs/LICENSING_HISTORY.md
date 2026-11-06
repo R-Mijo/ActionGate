@@ -1,6 +1,6 @@
 # Licensing history
 
-The original AGP 0.2 GitHub revision was public under MIT. Its notice is retained at `LICENSES/MIT-historical-0.2.0.txt`. This project owner is Marco Armijo (R-Mijo).
+The original Anchor 0.2 GitHub revision was public under MIT. Its notice is retained at `LICENSES/MIT-historical-0.2.0.txt`. This project owner is Marco Armijo (R-Mijo).
 
 The current project revision and newly authored changes are offered only under the proprietary root LICENSE. That does not revoke earlier grants, erase copies/forks, or claim ownership of third-party work. A recipient who already has MIT rights to earlier material keeps the rights provided by that license. Making a repository private prevents new public access through that repository; it does not retrieve existing copies.
 

@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "actiongate"
-version = "0.3.1"
+version = "0.3.2"
 description = "Evidence release gates and scoped action controls for tool-using agents"
 readme = "README.md"
 requires-python = ">=3.11"
@@ -15,6 +15,9 @@ dependencies = []
 
 [project.scripts]
 actiongate = "actiongate.cli:main"
+
+[tool.setuptools]
+license-files = ["LICENSE", "LICENSES/*.txt"]
 
 [tool.setuptools.packages.find]
 include = ["actiongate*"]

@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.3.2 — 6 November 2026
+
+- Use Anchor Task Assurance for the protocol name in current documentation and study tooling; keep ActionGate as the separate enforcement toolkit.
+- Update shared policy/study identifiers to `anchor-reference-controls-0.2.2` and `anchor-synthetic-study-0.2.2`, and the study manifest field to `full_anchor_verifier_jobs`. Prepare fresh study artifacts; enforcement and scoring rules are unchanged.
+- Correct current startup instructions and preserve existing imports, commands, repository history and historical licensing grants.
+
 ## 0.3.1
 
 - Standardized the product name as ActionGate, the Python import as `actiongate`, and the installed command as `actiongate`.
@@ -16,7 +22,7 @@
 
 ## 0.2.0 — 29 October 2026
 
-First runnable reference release derived from Marco A.'s AGP version 0.1 proposal.
+First runnable reference release derived from Marco A.'s Anchor version 0.1 proposal.
 
 - Replaced disconnected starter fragments with a coherent standard-library Python gate and tests.
 - Corrected the total-14 assurance boundary and added provisional minimum assurance floors.
