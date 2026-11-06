@@ -1,18 +1,18 @@
 ![Product banner](docs/assets/banner.svg)
 
-# Meeho ActionGate
+# ActionGate
 
 **Evidence before release. Authority before action.**
 
-Meeho ActionGate is a small Python toolkit for governing tool-using agents. Check a draft against an evidence policy, keep tool execution within a configured scope, require review where needed, and stop new writes when safety failures accumulate.
+ActionGate is a small Python toolkit for governing tool-using agents. Check a draft against an evidence policy, keep tool execution within a configured scope, require review where needed, and stop new writes when safety failures accumulate.
 
 Created by **Marco Armijo (R-Mijo)**. This is a separate project from [Anchor Task Assurance](https://github.com/R-Mijo/Anchor_Task_Assurance). It builds on an evidence-checking foundation and adds tool authorization, trusted review sessions, autonomy controls, circuit breaking and usage reservations.
 
-**0.3.0 | Python 3.11+ | Proprietary | No third-party runtime dependencies**
+**0.3.1 | Python 3.11+ | Proprietary | No third-party runtime dependencies**
 
 ## In plain English
 
-Meeho is the permission checkpoint for an AI using tools. It can allow a draft, require a named human review, or block a write operation. For example, an agent can prepare a refund request without having permission to issue the refund. The host must authenticate people and keep direct credentials away from the agent.
+ActionGate is the permission checkpoint for an AI using tools. It can allow a draft, require a named human review, or block a write operation. For example, an agent can prepare a refund request without having permission to issue the refund. The host must authenticate people and keep direct credentials away from the agent.
 
 ## Try it
 
@@ -20,11 +20,11 @@ From the repository folder:
 
 ```sh
 python -m unittest discover -s tests -v
-python -m meeho_actiongate demo
-python -m meeho_actiongate action-demo
+python -m actiongate demo
+python -m actiongate action-demo
 ```
 
-Install with `python -m pip install .` to use the `meeho-actiongate` command. Demos use synthetic data and local memory; they make no model calls or real business actions.
+Install with `python -m pip install .` to use the `actiongate` command. Demos use synthetic data and local memory; they make no model calls or real business actions.
 
 ## Two gates, two decisions
 
@@ -52,8 +52,8 @@ This is an **in-process reference implementation**. Tickets invalidate on restar
 The existing 30-case synthetic expense pack prepares consistent randomized prompt packets without putting gold answers in prompts:
 
 ```sh
-python -m meeho_actiongate prepare --directory results/pilot --repeats 3 --seed 20261029
-python -m meeho_actiongate --help
+python -m actiongate prepare --directory results/pilot --repeats 3 --seed 20261029
+python -m actiongate --help
 ```
 
 This prepares a study; it does not manufacture model outputs or demonstrate improved accuracy. Mechanical scoring is screening; substantive accuracy still needs independent review. This release has no validated accuracy, prompt-injection prevention, or percentage cost-saving claims.

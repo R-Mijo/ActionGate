@@ -5,7 +5,7 @@ The broker is a trusted-host component, not a tool the model can administer. Its
 ## Host setup
 
 ```python
-from meeho_actiongate import ActionBroker, Autonomy, ToolPolicy, TaskProfile, ReleaseDecision
+from actiongate import ActionBroker, Autonomy, ToolPolicy, TaskProfile, ReleaseDecision
 
 broker = ActionBroker(
     autonomy=Autonomy.ACT_WITH_APPROVAL,
@@ -53,7 +53,7 @@ Notification callbacks are application-owned. Callback failures appear in `notif
 ## Usage and context
 
 ```python
-from meeho_actiongate import UsageBudget
+from actiongate import UsageBudget
 
 budget = UsageBudget(daily_tokens=250_000, max_attempts_per_item=3)
 reservation = budget.reserve('CASE-123', input_tokens=known_input_tokens, max_output_tokens=500)

@@ -1,8 +1,8 @@
-# Meeho ActionGate: product update — November 6, 2026
+# ActionGate: product update — November 6, 2026
 
 ## What this means to a customer
 
-Meeho is the permission checkpoint for an AI using tools. It can allow a draft, require a named human review, or block a write operation. For example, an agent can prepare a refund request without having permission to issue the refund. The host must authenticate people and keep direct credentials away from the agent.
+ActionGate is the permission checkpoint for an AI using tools. It can allow a draft, require a named human review, or block a write operation. For example, an agent can prepare a refund request without having permission to issue the refund. The host must authenticate people and keep direct credentials away from the agent.
 
 ## Presentation
 

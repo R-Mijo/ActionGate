@@ -4,8 +4,8 @@ from concurrent.futures import ThreadPoolExecutor
 from datetime import date, datetime, timedelta, timezone
 import unittest
 
-from meeho_actiongate.core import ReleaseDecision, TaskProfile, Source, build_receipt
-from meeho_actiongate.runtime import ActionBroker, Autonomy, CircuitBreaker, ToolPolicy, UsageBudget, prepare_context
+from actiongate.core import ReleaseDecision, TaskProfile, Source, build_receipt
+from actiongate.runtime import ActionBroker, Autonomy, CircuitBreaker, ToolPolicy, UsageBudget, prepare_context
 
 
 class RuntimeTests(unittest.TestCase):

@@ -1,8 +1,13 @@
 # Changelog
 
+## 0.3.1
+
+- Standardized the product name as ActionGate, the Python import as `actiongate`, and the installed command as `actiongate`.
+- Updated package discovery, bundled study data, documentation, artwork and CI to use the current name.
+
 ## 0.3.0 — 5 November 2026
 
-- Introduced Meeho ActionGate as a separate project built on the evidence-checking foundation. Anchor Task Assurance retains the original project history.
+- Introduced ActionGate as a separate project built on the evidence-checking foundation. Anchor Task Assurance retains the original project history.
 - Added a separate scoped action broker with full default-argument binding, single-use tickets, expiry, owner revocation and concurrent replay protection.
 - Added host-clock review sessions, explicit reviewer/issue checks, four autonomy levels and sliding-window circuit breaking.
 - Added pre-call usage reservations, attempt limits, actual usage settlement and explicit context bundles.

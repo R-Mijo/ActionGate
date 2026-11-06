@@ -9,11 +9,11 @@ from pathlib import Path
 import tempfile
 import unittest
 
-from meeho_actiongate.benchmark import (
+from actiongate.benchmark import (
     load_responses, load_study, prepare_study, render_prompt, score_study,
     strict_json_loads, validate_output, verifier_packets,
 )
-from meeho_actiongate.cli import demo
+from actiongate.cli import demo
 
 
 def output():

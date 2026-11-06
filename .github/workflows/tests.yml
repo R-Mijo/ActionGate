@@ -17,8 +17,8 @@ jobs:
           python-version: ${{ matrix.python }}
       - run: python -m pip install .
       - run: python -m unittest discover -s tests -v
-      - run: python -m meeho_actiongate demo
-      - run: python -m meeho_actiongate action-demo
+      - run: python -m actiongate demo
+      - run: python -m actiongate action-demo
       - name: Import installed package outside the checkout
         working-directory: ${{ runner.temp }}
-        run: python -I -c "import meeho_actiongate; print(meeho_actiongate.__version__)"
+        run: python -I -c "import actiongate; print(actiongate.__version__)"
