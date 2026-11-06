@@ -2,11 +2,20 @@
 
 # ActionGate
 
-**Evidence before release. Authority before action.**
+**The AI Safety Brake — a software toolkit for governing AI tool actions.**
 
-ActionGate is a small Python toolkit for governing tool-using agents. Check a draft against an evidence policy, keep tool execution within a configured scope, require review where needed, and stop new writes when safety failures accumulate.
+ActionGate is the software companion to the **AGP evidence-and-review protocol**, whose documentation lives in [Anchor Task Assurance](https://github.com/R-Mijo/Anchor_Task_Assurance). It supplies an evidence-release gate plus scoped tool authorization, required approvals, autonomy controls, circuit breaking and usage reservations. Evidence before release. Authority before action.
 
-Created by **Marco Armijo (R-Mijo)**. This is a separate project from [Anchor Task Assurance](https://github.com/R-Mijo/Anchor_Task_Assurance). It builds on an evidence-checking foundation and adds tool authorization, trusted review sessions, autonomy controls, circuit breaking and usage reservations.
+Created by **Marco Armijo (R-Mijo)**. The projects remain separate repositories and packages: Anchor is the protocol home with reference code; ActionGate is the enforcement toolkit. ActionGate currently includes its own copy of the evidence-checking foundation and has no package dependency on Anchor. It is not yet a certified protocol implementation or a ready-made company dashboard.
+
+## Protocol and tool: choose the right repository
+
+| Repository | Role | Start here |
+| --- | --- | --- |
+| **[Anchor Task Assurance](https://github.com/R-Mijo/Anchor_Task_Assurance)** | AGP protocol documentation, answer-assurance reference code and evaluation design. | [Protocol overview](https://github.com/R-Mijo/Anchor_Task_Assurance/blob/main/docs/METHODOLOGY.md) |
+| **ActionGate — this repository** | Software controls for evidence release and agent tool execution inside a trusted application. | [Architecture and compatibility](docs/ARCHITECTURE.md), then [runtime integration](docs/RUNTIME.md) |
+
+The company using ActionGate owns the application, identities, credentials, business policy and review interface. Its developers integrate the toolkit. Employees encounter its checks and approval requests through that application. A protocol release decision alone cannot authorize an external action.
 
 **0.3.1 | Python 3.11+ | Proprietary | No third-party runtime dependencies**
 
@@ -60,6 +69,7 @@ This prepares a study; it does not manufacture model outputs or demonstrate impr
 
 ## Read more
 
+- [Toolkit architecture, protocol relationship and compatibility](docs/ARCHITECTURE.md)
 - [Runtime API and trust boundary](docs/RUNTIME.md)
 - [Migration from the Gemini packages](docs/MIGRATION.md)
 - [Verification results](docs/TEST_RESULTS.md)

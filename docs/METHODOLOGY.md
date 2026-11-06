@@ -1,10 +1,12 @@
 # Adaptive Grounded Prompting methodology
 
+> **ActionGate reference snapshot.** The canonical AGP operational method is maintained in [Anchor Task Assurance](https://github.com/R-Mijo/Anchor_Task_Assurance/blob/main/docs/METHODOLOGY.md). This copy is retained for ActionGate's history and implementation context; it is not a separate protocol specification. See [the current compatibility snapshot](ARCHITECTURE.md) before assuming newer protocol text is implemented by this toolkit.
+
 Developed by Marco A. Version 0.2 experimental specification. 29 October 2026.
 
 Adaptive Grounded Prompting (AGP) is a proposed method for deciding whether an AI-assisted task result has the evidence and checks required by a stated policy before it enters a business workflow. It combines task classification, evidence records, verification requirements, and an execution receipt. The intended benefit is more consistent review and a clearer explanation of delivery decisions. That benefit remains a hypothesis to evaluate.
 
-This release is a bounded reference implementation. It does not establish improved model accuracy, production safety, regulatory compliance, or invention of the underlying practices. Read [related work](RELATED_WORK.md) before making originality claims. The [policy implementation](../agp/core.py) is authoritative for exact behavior.
+This release is a bounded reference implementation. It does not establish improved model accuracy, production safety, regulatory compliance, or invention of the underlying practices. Read [related work](RELATED_WORK.md) before making originality claims. The [policy implementation](../actiongate/core.py) is authoritative for this toolkit's exact behavior.
 
 ## Scope and operating boundary
 

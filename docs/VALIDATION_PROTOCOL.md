@@ -1,5 +1,7 @@
 # AGP independent validation protocol
 
+> **ActionGate reference snapshot.** The canonical research study design is maintained in [Anchor Task Assurance](https://github.com/R-Mijo/Anchor_Task_Assurance/blob/main/docs/VALIDATION_PROTOCOL.md). This is an evaluation protocol, distinct from the AGP operating method. ActionGate retains this copy for reference; see [architecture and compatibility](ARCHITECTURE.md) for the toolkit's current relationship to the protocol home.
+
 Protocol version 0.2. Synthetic policy version 1.1. Prepared 2026-10-29 for Marco A.
 
 This protocol asks whether AGP improves supported preliminary expense recommendations compared with a strong conventional prompt, and what independent verification adds. The published software checks and offline examples do not answer that empirical question. A model study and independent semantic review remain to be run. This is an exploratory pilot, not production certification.
